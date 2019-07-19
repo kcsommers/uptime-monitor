@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <!-- General Settings -->
+        <meta chartset="utf-8">
+        <meta
+            http-equiv="content-language"
+            content="en-us"
+        >
+        <base href="{global.baseUrl}">
+
+        <!-- Meta tags -->
+        <title>{head.title} | {global.appName}</title>
+        <meta
+            name="description"
+            content="{head.description}"
+        >
+
+        <!-- Static assets -->
+        <link type="image/x-icon" rel="icon" href="favicon.ico">
+        <script
+            type="text/javascript"
+            chartset="utf-8"
+            src="public/app.js"
+        ></script>
+        <link rel="stylesheet" href="public/app.css" type="text/css">
+    </head>
+    <body class="{body.class}">
+        <!-- Page Wrapper -->
+        <div class="wrapper">
+            <!-- Header -->
+            <div class="header">
+                <!-- Logo -->
+                <a
+                    href="/"
+                    class="logo"
+                ></a>
+                <!-- Navigation -->
+                <ul class="menu">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a
+                            href="/"
+                            class="loggedOut"
+                        >
+                            Signup
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/"
+                            class="loggedOut"
+                        >
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/"
+                            class="loggedIn"
+                        >
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/"
+                            class="loggedIn"
+                        >
+                            Account Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/"
+                            class="loggedIn"
+                        >
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Page specific content -->
+            <div class="content"></div>
+        </div>
+    </body>
+</html>
