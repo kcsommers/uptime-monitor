@@ -8,12 +8,14 @@
         >
         <base href="{global.baseUrl}">
 
+
         <!-- Meta tags -->
         <title>{head.title} | {global.appName}</title>
         <meta
             name="description"
             content="{head.description}"
         >
+
 
         <!-- Static assets -->
         <link type="image/x-icon" rel="icon" href="favicon.ico">
@@ -33,7 +35,12 @@
                 <a
                     href="/"
                     class="logo"
-                ></a>
+                >
+                    <img
+                        src="public/logo.png"
+                        alt="logo"
+                    >
+                </a>
                 <!-- Navigation -->
                 <ul class="menu">
                     <li>
@@ -41,7 +48,7 @@
                     </li>
                     <li>
                         <a
-                            href="/"
+                            href="/account/create"
                             class="loggedOut"
                         >
                             Signup
@@ -49,7 +56,7 @@
                     </li>
                     <li>
                         <a
-                            href="/"
+                            href="/session/create"
                             class="loggedOut"
                         >
                             Login
@@ -57,7 +64,7 @@
                     </li>
                     <li>
                         <a
-                            href="/"
+                            href="/checks/all"
                             class="loggedIn"
                         >
                             Dashboard
@@ -65,7 +72,7 @@
                     </li>
                     <li>
                         <a
-                            href="/"
+                            href="/account/edit"
                             class="loggedIn"
                         >
                             Account Settings
@@ -73,7 +80,7 @@
                     </li>
                     <li>
                         <a
-                            href="/"
+                            href="#"
                             class="loggedIn"
                         >
                             Logout
@@ -81,6 +88,11 @@
                     </li>
                 </ul>
             </div>
+
+
+
+
+
 
             <!-- Page specific content -->
             <div class="content"></div>
